@@ -1,1 +1,0 @@
-memberSearchIndex = [{"l":"DOC()","h":"","u":"%3Cinit%3E()"},{"l":"test(String)","h":"","u":"test(java.lang.String)"}]
