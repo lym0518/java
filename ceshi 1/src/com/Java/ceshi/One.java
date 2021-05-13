@@ -7,8 +7,16 @@ public class One {
         Scanner of=new Scanner(System.in);
         int[][] array1=new int[11][11];
         int a,b,color;
+        System.out.println("棋盘如下:");
+        for(int m=0;m<11;m++){
+            for (int n=0;n<11;n++){
+                array1[m][n]=0;
+                System.out.print(array1[m][n]+"\t");
+            }
+            System.out.println();
+        }
         for (int i = 0; i < 999; i++) {
-            System.out.println("please enter the color and coordinates of the pieces(1 or 2):");
+            System.out.println("请输入所下棋子的颜色(用1 或者 2表示)以及对应坐标(棋子颜色为0时退出):");
             color = of.nextInt();
             a = of.nextInt();
             b = of.nextInt();
@@ -16,8 +24,8 @@ public class One {
             if (color==0)
                 break;
             for (int[] ints : array1) {
-                for (int anint : ints) {
-                    System.out.print(anint + "\t");
+                for (int anoint : ints) {
+                    System.out.print(anoint + "\t");
                 }
                 System.out.println();
             }
