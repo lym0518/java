@@ -1,7 +1,6 @@
 package com.Java.oop;
 
-public class Summary {111
-
+public class Summary {
     public static void main(String[] args) {
         /* 1.类是一个模板，抽象，对象是一个具体的实例。
            2.方法，定义，调用
